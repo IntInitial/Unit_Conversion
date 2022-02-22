@@ -1,0 +1,16 @@
+{
+    "name": "unit_conversion",
+    "readmeFilename": "README.md",
+    "description": "JavaScript library for unit conversion",
+    "version": "0.0.1",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/IntInitial/Unit_Conversion.git"
+    },
+    "author": "int-intial",
+    "license": "MIT",
+    "scripts": {
+    },
+    "devDependencies": {
+    }
+  }

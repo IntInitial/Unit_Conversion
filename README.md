@@ -1,1 +1,2 @@
 # Unit_Conversion
+This package will act as the imported Javascript Conversion tooling package to allow us to quickly make changes at the same time as others are working and to expand our conversion types on the fly as we want them
