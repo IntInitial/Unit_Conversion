@@ -3,3 +3,6 @@ build/
 tags
 .idea
 .idea/*
+coverage
+dist
+.vscode
