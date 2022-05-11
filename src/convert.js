@@ -1,4 +1,4 @@
-import { unitTypes } from './constants/units'
+import { unitTypes } from './constants/units.js'
 
 /**
  * Function to convert inputted value of given unit to given value
