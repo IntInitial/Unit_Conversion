@@ -204,5 +204,44 @@ export const unitTypes = {
       hectare: 1e-4,
       acre: 0.000247105
     }
+  },
+  torque: {
+    base_name: 'newton_meter',
+    units: {
+      newton_meter: 1,
+      deca_newton_meter: 0.1,
+      kilo_newton_meter: 0.001,
+      deci_newton_meter: 10,
+      centi_newton_meter: 100,
+      milli_newton_meter: 1000,
+      micro_newton_meter: 1e+6,
+      newton_millimeter: 1000,
+      kilogram_force_meter: 0.10197162,
+      kilogram_force_centimeter: 10.19716213,
+      gram_force_meter: 101.9716213,
+      gram_force_centimeter: 10197.16212978,
+      dyne_centimeter: 1e+7,
+      foot_pound: 0.73756215,
+      inch_pound: 8.85074579,
+      inch_ounce: 141.612,
+    }
+  },
+  density: {
+    base_name: 'kilogram_per_cubic_meter',
+    units: {
+      kilogram_per_cubic_meter: 1,
+      kilogram_per_cubic_millimeter: 1.e-9,
+      kilogram_per_cubic_centimeter: 1.e-6,
+      gram_per_cubic_meter: 1000,
+      gram_per_cubic_millimeter: 1.e-6,
+      gram_per_cubic_centimeter: 0.001,
+      tonne_per_cubic_meter: 0.001,
+      tonne_per_cubic_millimeter: 1.e-12,
+      tonne_per_cubic_centimeter: 1.e-9,
+      gram_per_liter: 1,
+      gram_per_milliliter: 0.001,
+      pound_per_cubic_feet: 0.062427960576145,
+      pound_per_cubic_inch: 3.6127292000084E-5
+    }
   }
 }
