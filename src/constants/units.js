@@ -223,7 +223,7 @@ export const unitTypes = {
       dyne_centimeter: 1e+7,
       foot_pound: 0.73756215,
       inch_pound: 8.85074579,
-      inch_ounce: 141.612,
+      inch_ounce: 141.612
     }
   },
   density: {
