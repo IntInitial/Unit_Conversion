@@ -1,3 +1,1 @@
-import convertToUnits from './convert.js'
-
-module.exports.convertToUnits = convertToUnits
+export { default as convertUnits } from './convert.js'
