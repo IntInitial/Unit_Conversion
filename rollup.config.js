@@ -1,6 +1,7 @@
 import pkg from './package.json'
 import path from 'path'
 import { terser } from 'rollup-plugin-terser'
+import { nodeResolve } from '@rollup/plugin-node-resolve'
 
 const unitconverter = path.resolve(__dirname, 'src/convert.js')
 
@@ -23,7 +24,7 @@ export default [
   },
   {
     input: 'src/index.js',
-    plugins: [terser()],
+    plugins: [terser(), nodeResolve()],
     output: [{
       compact: true,
       name: 'unit-converter',
