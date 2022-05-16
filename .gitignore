@@ -6,3 +6,4 @@ tags
 coverage
 dist
 .vscode
+bundle.js
