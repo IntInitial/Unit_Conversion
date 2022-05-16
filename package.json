@@ -8,9 +8,8 @@
   },
   "author": "int-intial",
   "license": "MIT",
-  "main": "dist/cjs/index.js",
-  "module": "dist/es/index.js",
-  "browser": "dist/umd/index.min.js",
+  "main": "bundle.js",
+  "module": "bundle.js",
   "scripts": {
     "test": "jest",
     "build": "rollup -c",
@@ -45,6 +44,6 @@
     "converter"
   ],
   "files": [
-    "dist"
+    "bundle.js"
   ]
 }
