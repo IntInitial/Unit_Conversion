@@ -13,6 +13,7 @@
   "browser": "bundle.js",
   "scripts": {
     "test": "jest",
+    "prepare": "npm run build",
     "build": "rollup -c",
     "dev": "rollup -c -w"
   },
