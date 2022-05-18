@@ -1,4 +1,4 @@
-import convertToUnits from '../src/convert.js'
+import { convertToUnits } from '../src/convert.js'
 
 test('Returns a map the expected value of pint to all other volume values', () => {
   const inputFromValue = 5

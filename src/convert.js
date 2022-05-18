@@ -18,7 +18,7 @@ const convert = (x, y, z) => {
  * @param {float} unitFromValue Value of inputted 'From' unit
  * @returns {Map} Map of all converted available units from quantity of inputted unit
  */
-const convertToUnits = (unitType, unitFromName, unitFromValue) => {
+export const convertToUnits = (unitType, unitFromName, unitFromValue) => {
   const res = {}
   const celcius = 'celcius'
   const fahrenheit = 'fahrenheit'
@@ -81,5 +81,3 @@ const convertToUnits = (unitType, unitFromName, unitFromValue) => {
 
   return res
 }
-
-export default convertToUnits

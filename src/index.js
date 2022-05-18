@@ -1,1 +1,1 @@
-export { default as convertUnits } from './convert.js'
+export { convertUnits } from './convert.js'
