@@ -1,16 +1,16 @@
 {
   "name": "unit_conversion",
   "description": "JavaScript library for unit conversion",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/IntInitial/Unit_Conversion.git"
   },
   "author": "int-intial",
   "license": "MIT",
-  "main": "bundle.js",
-  "module": "bundle.js",
-  "browser": "bundle.js",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "browser": "dist/index.js",
   "scripts": {
     "test": "jest",
     "prepare": "npm run build",
@@ -47,6 +47,6 @@
     "converter"
   ],
   "files": [
-    "bundle.js"
+    "dist/"
   ]
 }
